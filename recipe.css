@@ -1,0 +1,71 @@
+body {
+  background-color: hsl(30, 54%, 90%);
+  margin-top: 0px;
+}
+
+h2 {
+  font-family: "Young Serif", serif;
+  font-weight: 400px;
+  color: hsl(14, 45%, 36%);
+}
+
+h1 {
+  font-family: "Young Serif", serif;
+  font-weight: 400px;
+  color: black;
+}
+
+h3 {
+  color: hsl(332, 51%, 32%);
+}
+
+.container {
+  background-color: white;
+  /* width: 50%; */
+  width: 750px;
+  border-radius: 25px;
+  margin: auto;
+  font-family: "Outfit", sans-serif;
+  font-size: 16px;
+}
+
+img {
+  height: 300px;
+  width: 690px;
+  border-radius: 25px;
+  margin: 30px;
+  text-align: center;
+}
+
+.recipe {
+  padding: 0px 30px 30px 30px;
+}
+
+.Preparation_time {
+  border: 1px solid hsl(330, 33%, 96%);
+  padding-left: 20px;
+  background-color: hsl(330, 33%, 96%);
+}
+li {
+  padding-left: 10px;
+}
+.Ingredients {
+  line-height: 1.6;
+}
+#instructions > ol > li {
+  margin-bottom: 10px;
+}
+hr {
+  border-color: #f4f0ec;
+}
+table {
+  width: 100%;
+}
+td {
+  border-bottom: 1px solid #f4f0ec;
+  padding: 5px 5px;
+}
+td:nth-of-type(2) {
+  color: hsl(14, 45%, 36%);
+  font-weight: 600;
+}
